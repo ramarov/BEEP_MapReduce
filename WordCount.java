@@ -25,7 +25,6 @@ import org.apache.hadoop.util.GenericOptionsParser;
  * and the main program.
  * </p>
  * 
- * @author Srinath Perera (srinath@wso2.com)
  */
 public class WordCount {
     private final static IntWritable one = new IntWritable(1);
