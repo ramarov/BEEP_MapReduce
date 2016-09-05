@@ -45,6 +45,7 @@ public class WordCount {
             StringTokenizer itr = new StringTokenizer(value.toString());
             while (itr.hasMoreTokens()) {
 		word.set(itr.nextToken().trim());
+
 		context.write(word,one);
 
             }
